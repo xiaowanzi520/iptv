@@ -1,24 +1,12 @@
 var rule = {
-  sites: [
-    {
-      name: "两个BT_兔",
-      type: 3,
-      api: "csp_bttwo_tu",
-      ext: "https://ghp.xptvhelper.link/https://raw.githubusercontent.com/xiaobaitulele/xptv/refs/heads/main/vod/bttwo_tu.js"
-    },
-    {
-      name: "4kvm_兔",
-      type: 3,
-      api: "csp_4kvm_tu",
-      ext: "https://ghp.xptvhelper.link/https://raw.githubusercontent.com/xiaobaitulele/xptv/refs/heads/main/vod/4kvm_tu.js"
-    },
-    {
-      name: "纽约影院_兔（无搜索）",
-      type: 3,
-      api: "csp_nycvod_tu",
-      ext: "https://ghp.xptvhelper.link/https://raw.githubusercontent.com/xiaobaitulele/xptv/refs/heads/main/vod/nycvod_tu.js"
-    }
-  ]
+    title: "测试源",
+    host: "https://www.baidu.com",
+    url: "/",
+    searchable: 0,
+    quickSearch: 0,
+    filterable: 0,
+    class_name: "测试",
+    class_url: "1"
 };
 
-export default rule;
+module.exports = rule;
