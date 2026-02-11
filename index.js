@@ -1,12 +1,12 @@
 var rule = {
-    title: "测试源",
-    host: "https://www.baidu.com",
-    url: "/",
-    searchable: 0,
-    quickSearch: 0,
-    filterable: 0,
-    class_name: "测试",
-    class_url: "1"
+  sites: [
+    {
+      name: "两个BT_兔",
+      type: 3,
+      api: "csp_bttwo_tu",
+      ext: "https://ghp.xptvhelper.link/https://raw.githubusercontent.com/xiaobaitulele/xptv/refs/heads/main/vod/bttwo_tu.js"
+    }
+  ]
 };
 
-module.exports = rule;
+export default rule;
